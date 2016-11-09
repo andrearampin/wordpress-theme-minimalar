@@ -1,0 +1,37 @@
+/*
+  Theme Name: Minimalar
+  Theme URI: https://github.com/andrearampin/wordpress-theme-minimalar
+  Author: Andrea Rampin
+  Author URI: https://www.andrearampin.com
+  Description: Minimal extension of Cele's Wordpress template
+  Version: 1.0
+  Template: cele
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Tags: blog, two-columns, left-sidebar, accessibility-ready, custom-menu, featured-images, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+body,
+.site-footer:after,
+.main {
+  background: #fff !important;
+}
+
+.post-content {
+  text-align: justify;
+}
+
+@media all and (min-width: 56.25em) {
+  .main-sidebar {
+    position: fixed;
+  }
+}
+
+@media all and (max-width: 56.25em) {
+  .logo {
+    width: 50%;
+  }
+  .site-title {
+    text-align: center;
+  }
+}
